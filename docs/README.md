@@ -51,7 +51,7 @@ Canadian Census and Census Mapper: Census Dissemination Area Polygons, Proportio
 
 # General Workflow Process
 
-# Discusssion
+# Discussion
 
-# Sources
+# Other Sources
 
