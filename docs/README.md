@@ -51,17 +51,20 @@ Canadian Census and Census Mapper: Census Dissemination Area Polygons, Proportio
 
 1. Reclassification limits the amount of detail and granularity displayed by data.
 2. We are assuming that people cannot access parks on roads without sidewalks, bus lanes, or bike infrastructure in this analysis. They can, just not as safely and being next to roads is often not an option for people with disabilities.
-3. Speed assumptions are taken from worldwide averages. Some people walk faster or slower.
-4. Using vertices of park polygons for entrances is a good approximation, but it may exclude entrances through dedicated park paths (for which the Region of Waterloo does not have data).
-5. Using dissemination areas to represent a whole population creates a loss of detail in data. For example, one person in a high-rent area could be paying $400/month while someone else could be paying $1600/month.
-6. This analysis excludes greenspaces maintained by the University of Waterloo and focuses on municipal services because most people do not live on the University of Waterloo campus.
-7. This analysis excludes Laurel Creek Conservation Area because one needs to pay $8 to be admitted to the park.
+3. The 2021 census does not necessarily reflect the current state of the housing crisis, but it is the closest approximation we have.
+4. Speed assumptions are taken from worldwide averages. Some people walk faster or slower.
+5. Using vertices of park polygons for entrances is a good approximation, but it may exclude entrances through dedicated park paths (for which the Region of Waterloo does not have data).
+6. Using dissemination areas to represent a whole population creates a loss of detail in data. For example, one person in a high-rent area could be paying $400/month while someone else could be paying $1600/month.
+7. This analysis excludes greenspaces maintained by the University of Waterloo and focuses on municipal services because most people do not live on the University of Waterloo campus.
+8. This analysis excludes Laurel Creek Conservation Area because one needs to pay $8 to be admitted to the park.
 
 # User Guide and App Capabilities
 
 # General Workflow Process
 
 # Discussion
+
+Our map displays large areas of park disparity in both central Waterloo and the outskirts of the city boundary. In the central area, this is because there are few greenspaces to utilize and there area also higher rental costs. Though greenspaces are accessible through walking, biking, and public transit, there are so few of them due to development that people do not have greenspace access. Additionally, near the Waterloo and Laurier campuses, rental corporations have significantly increased rents in student housing leading to higher rental disparity. On the outskirts of Waterloo, park disparity occurs because of high rental inequity and lack of accessible methods to get to greenspaces. While there are lots of greenspaces on the edge of the city, they are often only accessible by cars, not by cycling, sidewalk, or public transit. While people could walk or cycle on the side of the road, this is often unsafe as speed limits in this area are much higher than in the city center. Furthermore, rent in this area is generally higher because people are living in single family homes or luxury apartments, which leads to a higher rental disparity score. Between central Waterloo and the outskirts of the city, there are both accessible parks and lower rental costs, so these areas generally have the lowest park disparity.
 
 # Other Sources
 
