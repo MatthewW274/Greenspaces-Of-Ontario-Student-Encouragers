@@ -50,6 +50,21 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 8. The Transit Index raster was then subtracted from the Rental Factors raster to create a suitability raster of the areas of Waterloo that have the highest housing hardship and have the least ability to access green space. 
 9. This new raster of park disparity was then reclassified on a scale of 1-5 to show park disparity on a scale of 5 classes.
 
+## List of Geoprocessing Tools Used
+
+Feature vertices to points
+Calculate field
+Create feature dataset
+Import feature class
+Create network dataset
+Build network
+Import facilities
+Solve (service areas)
+Polygon to raster
+Reclassify
+Weighted sum
+Minus
+
 # Limitations 
 
 1. Reclassification involves grouping data into broader categories, which reduces the level of detail and precision. While this simplifies complex datasets for easier analysis or interpretation, it sacrifices the ability to observe subtle variations that might be present in more granular data. Though useful for simplifying information or protecting privacy, reclassification can lead to oversimplification and missing nuanced trends.
