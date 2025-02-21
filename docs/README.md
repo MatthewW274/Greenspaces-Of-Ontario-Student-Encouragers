@@ -65,8 +65,9 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 
 The Park Place app is built in ArcGIS Experience Builder, a no- to low-code solution that promotes re-use and replication by other municipalities and community groups. Park Place is best viewed in desktop environments (i.e., on a PC or laptop).
 
-The app, designed within the intuitive UI/UX design of ArcGIS Experience Builder, allows users to view 
+The app is set up with three views, accessible from the top-right corner of the screen; Park Disparity, Rental Factors and Transit Index. The Park Disparity view shows access to parks and greenspaces on a five-step scale from low to high, while the Rental Factors shows its respective suitability raster on a four-step scale. The Transit Index view shows access to transit throughout the City of Waterloo, with areas accessible using pedestrian, cycling and/or transit facilities classified on a three-step scale. Layers can be turned on or off using the layer control button along the right edge of the app.
 
+The app also features a widget controller for each view, containing Query, Filter, and Add Data functionalities.
 
 # Discussion
 
