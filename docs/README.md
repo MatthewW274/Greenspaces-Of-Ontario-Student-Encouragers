@@ -82,7 +82,7 @@ The Park Place app is built in ArcGIS Experience Builder, a no- to low-code solu
 
 The app is set up with three views, accessible from the top-right corner of the screen; Park Disparity, Rental Factors and Transit Index. The Park Disparity view shows access to parks and greenspaces on a five-step scale from low to high, while the Rental Factors shows its respective suitability raster on a four-step scale. The Transit Index view shows access to transit throughout the City of Waterloo, with areas accessible using pedestrian, cycling and/or transit facilities classified on a three-step scale. Layers can be turned on or off using the layer control button along the right edge of the app.
 
-The app also features a widget controller for each view, containing Query, Filter, and Add Data functionalities.
+The app also features a widget controller for each view, containing Query, Filter, and Add Data functionalities. The Query widget allows you to retrieve information from a data source by running an attribute or spatial filter query. The results of a query generate an output data source that other widgets can use. The Filter widget allows you to limit the visibility of features in one or more layers to only those that meet the expression criteria. You can apply filters to multiple layers with group filters. Changes made in a Filter widget affect data across your app, so other widgets that use the same layers are filtered accordingly. The Add Data widget allows you to temporarily add data sources to the app at run time. You can add data from ArcGIS content, a URL, or local storage. You can manage and filter added data and view data in maps and tables. Importantly, you cannot save data.
 
 # Discussion
 
