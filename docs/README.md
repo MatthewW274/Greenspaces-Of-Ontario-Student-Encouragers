@@ -23,13 +23,16 @@ Park Place, built in response to the widening gaps of urban green space inequity
 
 With greenspaces playing an ever-increasing role in mental health, physical wellness, air quality, the urban heat island effect, and more, there should be advocacy for those who cannot necessarily afford to own a home in a suburb to retain access to a municipally maintained greenspace. Park Place's analysis advocates for change and sends an urgent message to decision-makers to consider prioritizing and preserving accessible green space in transit-oriented inner-city areas to help maintain residents' overall health.
 
-# Data Sources
+# Data Sources and Acknowledgements
 
-Region of Waterloo Open Data Portal: Sidewalks, GRT Routes, Cycling Infrastructure, City Boundary, and Park Polygons.
+Region of Waterloo Open Data Portal: [Sidewalks](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/f49efdef08544349bf08cf7ba4fd7ec5_0/explore), [GRT Routes](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/16e0ab66dadf4044a5be144e9d88effb_4/explore), [Cycling Infrastructure](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/416741dbcb40451899b84ca7e10a80ee_0/explore), [Parks](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/f23fd60e88de4624b77cc328f16378bd_0/explore), and [Municipal Boundary](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/eda133697fd446db92dec930f162a700_0/explore) polygons.
 
-Canadian Census and Census Mapper: Census Dissemination Area Polygons, Proportion of People Renting in each DA, Average Rent in each DA, Proportion of renters Spending > 30% of income on rent.
+Statistics Canada (2021 Census): Total - Private households by tenure; Total - Tenant households in non-farm, non-reserve private dwellings; Average monthly shelter costs for rented dwellings ($) by censusdissemination area.
 
-# Methodology (and assumptions)
+Statistics Canada, Data from 2021 Census, accessed February 17, 2025. Reproduced and distributed on an "as is" basis with the permission of Statistics Canada, per the Statistics Canada Open Licence.
+von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). cancensus: R package to access, retrieve, and work with Canadian Census data and geography. v0.5.7.
+
+# Methodology (and Assumptions)
 
 1. Park data was loaded into ArcGIS Pro and park vertices were extracted from park polygons.
    a) Park vertices were the best approximation for park entrances in further analysis as many straight edges in parks are covered by treelines or fencelines
@@ -58,6 +61,8 @@ Canadian Census and Census Mapper: Census Dissemination Area Polygons, Proportio
 8. This analysis excludes Laurel Creek Conservation Area because one needs to pay $8 to be admitted to the park.
 
 # User Guide and App Capabilities
+
+
 
 # Discussion
 
