@@ -23,8 +23,6 @@ Park Place, built in response to the widening gaps of urban green space inequity
 
 With greenspaces playing an ever-increasing role in mental health, physical wellness, air quality, the urban heat island effect, and more, there should be advocacy for those who cannot necessarily afford to own a home in a suburb to retain access to a municipally maintained greenspace. Park Place's analysis advocates for change and sends an urgent message to decision-makers to consider prioritizing and preserving accessible green space in transit-oriented inner-city areas to help maintain residents' overall health.
 
-# Explanation of Index
-
 # Data Sources
 
 Region of Waterloo Open Data Portal: Sidewalks, GRT Routes, Cycling Infrastructure, City Boundary, and Park Polygons.
