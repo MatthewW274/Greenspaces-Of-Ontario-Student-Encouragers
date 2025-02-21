@@ -24,15 +24,6 @@ Park Place, built in response to the widening gaps of urban green space inequity
 
 With greenspaces playing an ever-increasing role in mental health, physical wellness, air quality, the urban heat island effect, and more, there should be advocacy for those who cannot necessarily afford to own a home in a suburb to retain access to a municipally maintained greenspace. Park Place's analysis advocates for change and sends an urgent message to decision-makers to consider prioritizing and preserving accessible green space in transit-oriented inner-city areas to help maintain residents' overall health.
 
-# Data Sources and Acknowledgements
-
-Region of Waterloo Open Data Portal: [Sidewalks](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/f49efdef08544349bf08cf7ba4fd7ec5_0/explore), [GRT Routes](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/16e0ab66dadf4044a5be144e9d88effb_4/explore), [Cycling Infrastructure](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/416741dbcb40451899b84ca7e10a80ee_0/explore), [Parks](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/f23fd60e88de4624b77cc328f16378bd_0/explore), and [Municipal Boundary](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/eda133697fd446db92dec930f162a700_0/explore) polygons.
-
-Statistics Canada (2021 Census): Total - Private households by tenure; Total - Tenant households in non-farm, non-reserve private dwellings; Average monthly shelter costs for rented dwellings ($) by censusdissemination area.
-
-Statistics Canada, Data from 2021 Census, accessed February 17, 2025. Reproduced and distributed on an "as is" basis with the permission of Statistics Canada, per the Statistics Canada Open Licence.
-von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to access, retrieve, and work with Canadian Census data and geography.](https://mountainmath.github.io/cancensus/index.html) v0.5.7.
-
 # Methodology (and Assumptions)
 
 1. City of Waterloo park data was loaded into ArcGIS Pro. Due to the point-to-point logic constraints of network analysis, park polygons were converted into points using the feature vertices to points tool. For simplicity, these vertices serve as approximations of pedestrian entry points into the parks. 
@@ -83,3 +74,32 @@ The app also features a widget controller for each view, containing Query, Filte
 
 Our map displays large areas of park disparity in central Waterloo and the city outskirts. Though greenspaces are accessible through walking, biking, and public transit, people do not have adequate greenspace access because of the scarcity created by urbanization. Generally, residents in the city core have access to fewer usable green spaces and higher rental costs. Additionally, [rental corporations have significantly increased rents in student housing](https://www.therecord.com/news/waterloo-region/apartment-vacancies-surge-in-waterloo-region-as-foreign-students-depart-but-rents-keep-rising/article_cd494dc3-bcc1-5a52-9d5c-ce4d80884292.html) near the Waterloo and Laurier campuses, leading to higher rental disparity. On the outskirts of Waterloo, park disparity occurs because of high rental inequity and lack of accessible methods to get to greenspaces. While many green spaces exist on the city's edge, they are often only accessible by cars, not by cycling, walking, or public transit. While people could walk or cycle on the side of the road, higher speed limits in rural areas compared to the city center and lack of pedestrian infrastructure create valid safety concerns.
 Furthermore, rent in this area is generally higher because people live in single-family homes or luxury apartments, which leads to a higher rental disparity score. There are both accessible parks and lower rental costs between central Waterloo and the outskirts of the city, so these areas generally have the lowest park disparity.
+
+# Data Sources and Acknowledgements
+
+## Region of Waterloo Data
+Region of Waterloo Open Data Portal: [Sidewalks](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/f49efdef08544349bf08cf7ba4fd7ec5_0/explore), [GRT Routes](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/16e0ab66dadf4044a5be144e9d88effb_4/explore), [Cycling Infrastructure](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/416741dbcb40451899b84ca7e10a80ee_0/explore), [Parks](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/f23fd60e88de4624b77cc328f16378bd_0/explore), and [Municipal Boundary](https://opendata-city-of-waterloo.opendata.arcgis.com/datasets/eda133697fd446db92dec930f162a700_0/explore) polygons.
+
+## Statistics Canada Data
+Statistics Canada (2021 Census): Total - Private households by tenure; Total - Tenant households in non-farm, non-reserve private dwellings; Average monthly shelter costs for rented dwellings ($) by censusdissemination area.
+
+Statistics Canada, Data from 2021 Census, accessed February 17, 2025. Reproduced and distributed on an "as is" basis with the permission of Statistics Canada, per the Statistics Canada Open Licence.
+von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to access, retrieve, and work with Canadian Census data and geography.](https://mountainmath.github.io/cancensus/index.html) v0.5.7.
+
+# Video Sources 
+## Stock Footage:
+[City timelapse](https://www.youtube.com/watch?v=GWij9M53E8w)
+[Monopoly](https://mixkit.co/free-stock-video/friends-playing-monopoly-5235/)
+[Park Footage](https://www.youtube.com/watch?v=-SnqiNVN22E)
+[City of Waterloo](https://www.youtube.com/watch?v=pM7GUElbldM)
+[Waterloo A City of Students](https://www.youtube.com/watch?v=BpSKnBPuVpw)
+
+## Images:
+[Park Place Monopoly Card](https://a.1stdibscdn.com/vintage-monopoly-game-park-place-title-deed-lithograph-for-sale-picture-3/f_9366/f_411914421724540511069/f_41191442_1724540511878_bg_processed.jpg?width=768)
+[City of Waterloo Census Bulletin](https://www.waterloo.ca/en/government/resources/Documents/Economic-Development/2021-Census-Bulletin-AODA.pdf)
+
+## Articles: 
+https://www.cbc.ca/news/canada/kitchener-waterloo/new-waterloo-region-hospital-location-announcement-1.7271115
+https://globalnews.ca/news/10637024/uw-selected-new-hospital-kitchener-waterloo/
+https://www.ctvnews.ca/kitchener/article/province-to-build-new-hospital-on-university-of-waterloo-campus/
+
