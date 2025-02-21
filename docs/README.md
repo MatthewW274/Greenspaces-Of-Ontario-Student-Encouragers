@@ -88,18 +88,18 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 
 # Video Sources 
 ## Stock Footage:
-[City timelapse](https://www.youtube.com/watch?v=GWij9M53E8w)
-[Monopoly](https://mixkit.co/free-stock-video/friends-playing-monopoly-5235/)
-[Park Footage](https://www.youtube.com/watch?v=-SnqiNVN22E)
-[City of Waterloo](https://www.youtube.com/watch?v=pM7GUElbldM)
-[Waterloo A City of Students](https://www.youtube.com/watch?v=BpSKnBPuVpw)
+- [City timelapse](https://www.youtube.com/watch?v=GWij9M53E8w)
+- [Monopoly](https://mixkit.co/free-stock-video/friends-playing-monopoly-5235/)
+- [Park Footage](https://www.youtube.com/watch?v=-SnqiNVN22E)
+- [City of Waterloo](https://www.youtube.com/watch?v=pM7GUElbldM)
+- [Waterloo A City of Students](https://www.youtube.com/watch?v=BpSKnBPuVpw)
 
 ## Images:
-[Park Place Monopoly Card](https://a.1stdibscdn.com/vintage-monopoly-game-park-place-title-deed-lithograph-for-sale-picture-3/f_9366/f_411914421724540511069/f_41191442_1724540511878_bg_processed.jpg?width=768)
-[City of Waterloo Census Bulletin](https://www.waterloo.ca/en/government/resources/Documents/Economic-Development/2021-Census-Bulletin-AODA.pdf)
+- [Park Place Monopoly Card](https://a.1stdibscdn.com/vintage-monopoly-game-park-place-title-deed-lithograph-for-sale-picture-3/f_9366/f_411914421724540511069/f_41191442_1724540511878_bg_processed.jpg?width=768)
+- [City of Waterloo Census Bulletin](https://www.waterloo.ca/en/government/resources/Documents/Economic-Development/2021-Census-Bulletin-AODA.pdf)
 
 ## Articles: 
-https://www.cbc.ca/news/canada/kitchener-waterloo/new-waterloo-region-hospital-location-announcement-1.7271115
-https://globalnews.ca/news/10637024/uw-selected-new-hospital-kitchener-waterloo/
-https://www.ctvnews.ca/kitchener/article/province-to-build-new-hospital-on-university-of-waterloo-campus/
+- https://www.cbc.ca/news/canada/kitchener-waterloo/new-waterloo-region-hospital-location-announcement-1.7271115
+- https://globalnews.ca/news/10637024/uw-selected-new-hospital-kitchener-waterloo/
+- https://www.ctvnews.ca/kitchener/article/province-to-build-new-hospital-on-university-of-waterloo-campus/
 
