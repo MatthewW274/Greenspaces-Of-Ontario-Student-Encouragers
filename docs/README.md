@@ -35,20 +35,15 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 
 # Methodology (and Assumptions)
 
-1. Park data was loaded into ArcGIS Pro and park vertices were extracted from park polygons.
-   a) Park vertices were the best approximation for park entrances in further analysis as many straight edges in parks are covered by treelines or fencelines
-2. Sidewalk, GRT route, and cycling infrastructure data were added to the project and travel time information was added to the layers.
-   a) Speed assumed to be 5 km/h for walking, 10 km/h for biking, and 40 km/h for buses
-3. Networks were created for each route layer, and 15-minute service areas were created using park vertices as facilities.
-4. Binary rasters based on the presence or absence of a bike/bus/walking service area clipped to the city boundary of Waterloo were created and summed with equal weight into an accessible transit index raster that has a scale from 0-3.
-5. Census Dissemination area polygons were loaded into the project, clipped to the regional boundary, and joined to a census statistics table with information on the proportion of people renting in each area, the average rent in the area, and the proportion of renters spending > 30% of their income on housing.
-   a) These metrics were selected to display the inequitable distribution of parks for our area because Waterloo is a city with a large portion of its population
-   renting due to its two universities and one college. Other metrics like average income could have been chosen as well.
-6. Each census statistic we utilised was mapped and rasterised. The rasters were then reclassified on a scale of 1-5 for each statistic using the natural breaks method.
-7. The census rasters were then added together with equal weighting, and subject to a sensitivity analysis (+/-5% weights for each of the 3 rasters) to see how robust the model was. This created our Rental Factors raster.
-   a) The sensitivity analysis displayed no significant differences.
-8. The Transit Index raster was then subtracted from the Rental Factors raster to create a suitability raster of the areas of Waterloo that have the highest housing hardship and have the least ability to access green space. 
-9. This new raster of park disparity was then reclassified on a scale of 1-5 to show park disparity on a scale of 5 classes.
+1. City of Waterloo park data was loaded into ArcGIS Pro. Due to the point-to-point logic constraints of network analysis, park polygons were converted into points using the feature vertices to points tool. For simplicity, these vertices serve as approximations of pedestrian entry points into the parks. 
+2. The sidewalk, GRT route, and cycling infrastructure datasets were updated to include travel time information. Travel speeds of 5 km/h for walking, 10 km/h for biking, and 40 km/h for buses were assumed based on GRT and Google Maps data.
+3. Utilizing ArcGIS's Network Analyst extension, 15-minute service areas were created using park vertices as facilities and route layers as the network.
+4. Binary rasters based on the presence or absence of a bike/bus/walking service area clipped to the city boundary of Waterloo were created and summed with equal weight into an accessible transit index raster with a scale from 0-3.
+5. Dissemination area polygons were loaded into the project, clipped to the regional boundary, and joined to a census statistics table with information on the proportion of people renting in each area, the average rent in the area, and the proportion of renters spending > 30% of their income on housing, which was chosen to display the inequitable park area because Waterloo has a large renting population due to its post-secondary institutions. Other metrics, such as average income, could have also been chosen.
+6. Each census statistic was mapped and rasterized. The rasters were then reclassified on a scale of 1-5 for each statistic with the Natural Breaks method.
+7. The census rasters were weighted equally, merged, and subjected to a sensitivity analysis (+/-5% weights for each of the three rasters) to check the model robustness and create the rental factors raster. The sensitivity analysis displayed no significant differences between the rasters.
+8. The Transit Index raster was then subtracted from the Rental Factors raster to create a suitability raster of Waterloo areas with the highest housing hardship and the lowest green space accessibility. 
+9. The resulting park disparity raster was reclassified on a scale of 1-5 to show park disparity on a scale of 5 classes.
 
 ## List of Geoprocessing Tools Used
 
