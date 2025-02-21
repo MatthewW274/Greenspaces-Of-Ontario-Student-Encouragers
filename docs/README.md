@@ -1,6 +1,10 @@
 # Greenspaces-Of-Ontario-Student-Encouragers (GOOSE)
 ###### Desktop Oriented Web Application
 
+# Links
+- [App](https://arcg.is/SbGL80)
+- [Video](https://drive.google.com/file/d/1JRx3cP9TvL_h9piaD1WCsWvmc4fdAKZD/view?usp=sharing)
+
 # Team
 - Harry Cheung
 - Brandon Que 
@@ -102,4 +106,7 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 - https://www.cbc.ca/news/canada/kitchener-waterloo/new-waterloo-region-hospital-location-announcement-1.7271115
 - https://globalnews.ca/news/10637024/uw-selected-new-hospital-kitchener-waterloo/
 - https://www.ctvnews.ca/kitchener/article/province-to-build-new-hospital-on-university-of-waterloo-campus/
+
+## Music:
+- [Summoning Salt Soundtrack 2021](https://www.youtube.com/watch?v=pi7Ox68FwE8&pp=ygUMI2hvbWVsYW5kaW5n)
 
