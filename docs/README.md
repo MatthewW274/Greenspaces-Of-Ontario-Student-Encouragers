@@ -52,18 +52,18 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 
 ## List of Geoprocessing Tools Used
 
-Feature vertices to points
-Calculate field
-Create feature dataset
-Import feature class
-Create network dataset
-Build network
-Import facilities
-Solve (service areas)
-Polygon to raster
-Reclassify
-Weighted sum
-Minus
+1. Feature vertices to points
+2. Calculate field
+3. Create feature dataset
+4. Import feature class
+5. Create network dataset
+6. Build network
+7. Import facilities
+8. Solve (service areas)
+9. Polygon to raster
+10. Reclassify
+11. Weighted sum
+12. Minus
 
 # Limitations 
 
