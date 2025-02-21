@@ -60,8 +60,6 @@ Canadian Census and Census Mapper: Census Dissemination Area Polygons, Proportio
 
 # User Guide and App Capabilities
 
-# General Workflow Process
-
 # Discussion
 
 Our map displays large areas of park disparity in both central Waterloo and the outskirts of the city boundary. In the central area, this is because there are few greenspaces to utilize and there area also higher rental costs. Though greenspaces are accessible through walking, biking, and public transit, there are so few of them due to development that people do not have greenspace access. Additionally, near the Waterloo and Laurier campuses, rental corporations have significantly increased rents in student housing leading to higher rental disparity. On the outskirts of Waterloo, park disparity occurs because of high rental inequity and lack of accessible methods to get to greenspaces. While there are lots of greenspaces on the edge of the city, they are often only accessible by cars, not by cycling, sidewalk, or public transit. While people could walk or cycle on the side of the road, this is often unsafe as speed limits in this area are much higher than in the city center. Furthermore, rent in this area is generally higher because people are living in single family homes or luxury apartments, which leads to a higher rental disparity score. Between central Waterloo and the outskirts of the city, there are both accessible parks and lower rental costs, so these areas generally have the lowest park disparity.
