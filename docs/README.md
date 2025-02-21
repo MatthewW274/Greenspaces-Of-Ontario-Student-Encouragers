@@ -1,4 +1,4 @@
-# Greenspaces-Of-Ontario-Student-Encouragers
+# Greenspaces-Of-Ontario-Student-Encouragers (GOOSE)
 ###### Desktop Oriented Web Application
 
 # Team
