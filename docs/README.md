@@ -1,9 +1,10 @@
 # Greenspaces-Of-Ontario-Student-Encouragers
+###### Desktop Oriented Web Application
 
 # Team
-Harry Cheung
-Brandon Que 
-Matthew Woodward
+- Harry Cheung
+- Brandon Que 
+- Matthew Woodward
 
 # App Logo
 
@@ -15,7 +16,8 @@ As urban populations grow, there is an increasing demand for housing, commercial
 
 This reduction in parkland results from the growing pressure on land in cities. As cities sprawl outward or undergo vertical development, the available space for recreational areas often shrinks. In some cases, where green spaces remain, they may be smaller and less accessible due to increased traffic, commercial developments, or higher property values pushing out the people, such as low-income renters, who rely on these parks for their well-being.
 
-The City of Waterloo has experienced drastic urbanization in the past few decades; as more and more land develops into student housing, research & technology parks, and high-rise rental properties within the city core, the greenspace that urban renters have access to is disappearing at an alarming rate. Boasting a unique reputation as a student town due to its prestigious post-secondary institutions, Waterloo has also seen a decrease in homeownership rates and more renters in the market compared to the provincial and federal average (2021 City of Waterloo Census Bulletin). With the announcement of future infrastructure projects, such as a new "state-of-the-art" hospital soon to be built on the University of Waterloo campus, the overall amount of accessible greenspace will only continue to decrease. 
+The City of Waterloo has experienced drastic urbanization in the past few decades; as more and more land develops into student housing, research & technology parks, and high-rise rental properties within the city core, the greenspace that urban renters have access to is disappearing at an alarming rate. Boasting a unique reputation as a student town due to its prestigious post-secondary institutions, [Waterloo has also seen a decrease in homeownership rates and more renters in the market compared to the provincial and federal average]([2021 City of Waterloo Census Bulletin](https://www.waterloo.ca/en/government/resources/Documents/Economic-Development/2021-Census-Bulletin-AODA.pdf
+). With the announcement of future infrastructure projects, such as a new "state-of-the-art" hospital soon to be built on the University of Waterloo campus, the overall amount of accessible greenspace will only continue to decrease. 
 
 Park Place, inspired by the iconic and high-value property in Monopoly, symbolises the growing wealth divide in urban areas. The name reflects the historical idea that certain parks, often located in central or desirable areas of a city, are seen as premium spaces—just as Park Place in Monopoly is one of the most expensive properties on the board. However, these so-called "park places" are increasingly out of reach for low-income renters, particularly in inner-city neighbourhoods. The rise of gentrification and urban development has led to a situation where these green spaces, originally designed to be public and accessible, are now monopolised by those who can afford to live nearby or own property in these desirable areas.
 
@@ -51,14 +53,14 @@ von Bergmann, J., Aaron Jacobs, Dmitry Shkolnik (2022). [cancensus: R package to
 
 # Limitations 
 
-1. Reclassification limits the amount of detail and granularity displayed by data.
-2. We are assuming that people cannot access parks on roads without sidewalks, bus lanes, or bike infrastructure in this analysis. They can, just not as safely and being next to roads is often not an option for people with disabilities.
-3. The 2021 census does not necessarily reflect the current state of the housing crisis, but it is the closest approximation we have.
+1. Reclassification involves grouping data into broader categories, which reduces the level of detail and precision. While this simplifies complex datasets for easier analysis or interpretation, it sacrifices the ability to observe subtle variations that might be present in more granular data. Though useful for simplifying information or protecting privacy, reclassification can lead to oversimplification and missing nuanced trends.
+2. We are operating under the assumption that accessing parks via roads without dedicated sidewalks, bus lanes, or bike infrastructure is unsafe or less feasible, particularly for individuals with disabilities. While it's technically possible for people to access these parks using such roads, it presents significant safety risks, as roads without proper pedestrian or cycling infrastructure can be hazardous, increasing the likelihood of accidents or injury. For people with disabilities, this is a concern, as they may face additional barriers in navigating areas not designed with accessibility in mind. 
+3. The 2021 census, while valuable in providing a snapshot of housing conditions, does not fully capture the ongoing dynamics of the housing crisis. Housing markets are constantly changing, such as shifts in supply and demand, economic fluctuations, government policies, and social trends. Despite these limitations, the 2021 census remains the closest approximation to understanding the scale and distribution of the housing crisis, offering a foundation for policymakers and researchers to assess trends, identify gaps, and make informed decisions until more up-to-date data becomes available.
 4. Speed assumptions are taken from worldwide averages. Some people walk faster or slower.
-5. Using vertices of park polygons for entrances is a good approximation, but it may exclude entrances through dedicated park paths (for which the Region of Waterloo does not have data).
-6. Using dissemination areas to represent a whole population creates a loss of detail in data. For example, one person in a high-rent area could be paying $400/month while someone else could be paying $1600/month.
-7. This analysis excludes greenspaces maintained by the University of Waterloo and focuses on municipal services because most people do not live on the University of Waterloo campus.
-8. This analysis excludes Laurel Creek Conservation Area because one needs to pay $8 to be admitted to the park.
+5. Park polygon vertices for entrances are a good approximation, but they may exclude entrances through dedicated park paths. The Region of Waterloo does not have park entrance data available.
+6. Using dissemination areas to represent a whole population creates a loss of detail in data. The average monthly in an area can range drastically, where the possible rental rates range from $400-$1600/month.
+7. As the scope of this analysis focuses on municipally-owned greenspaces, this analysis excludes greenspaces maintained by public institutions, such as the University of Waterloo.
+8. This analysis excludes Laurel Creek Conservation Area, as the park requires an $8 admission fee and is not freely accessible. 
 
 # User Guide and App Capabilities
 
@@ -69,7 +71,8 @@ The app, designed within the intuitive UI/UX design of ArcGIS Experience Builder
 
 # Discussion
 
-Our map displays large areas of park disparity in both central Waterloo and the outskirts of the city boundary. In the central area, this is because there are few greenspaces to utilise and there area also higher rental costs. Though greenspaces are accessible through walking, biking, and public transit, there are so few of them due to development that people do not have greenspace access. Additionally, near the Waterloo and Laurier campuses, rental corporations have significantly increased rents in student housing leading to higher rental disparity. On the outskirts of Waterloo, park disparity occurs because of high rental inequity and lack of accessible methods to get to greenspaces. While there are lots of greenspaces on the edge of the city, they are often only accessible by cars, not by cycling, sidewalk, or public transit. While people could walk or cycle on the side of the road, this is often unsafe as speed limits in this area are much higher than in the city center. Furthermore, rent in this area is generally higher because people are living in single family homes or luxury apartments, which leads to a higher rental disparity score. Between central Waterloo and the outskirts of the city, there are both accessible parks and lower rental costs, so these areas generally have the lowest park disparity.
+Our map displays large areas of park disparity in central Waterloo and the city outskirts. Though greenspaces are accessible through walking, biking, and public transit, people do not have adequate greenspace access because of the scarcity created by urbanization. Generally, residents in the city core have access to fewer usable green spaces and higher rental costs. Additionally, [rental corporations have significantly increased rents in student housing](https://www.therecord.com/news/waterloo-region/apartment-vacancies-surge-in-waterloo-region-as-foreign-students-depart-but-rents-keep-rising/article_cd494dc3-bcc1-5a52-9d5c-ce4d80884292.html) near the Waterloo and Laurier campuses, leading to higher rental disparity. On the outskirts of Waterloo, park disparity occurs because of high rental inequity and lack of accessible methods to get to greenspaces. While many green spaces exist on the city's edge, they are often only accessible by cars, not by cycling, walking, or public transit. While people could walk or cycle on the side of the road, higher speed limits in rural areas compared to the city center and lack of pedestrian infrastructure create valid safety concerns.
+Furthermore, rent in this area is generally higher because people live in single-family homes or luxury apartments, which leads to a higher rental disparity score. There are both accessible parks and lower rental costs between central Waterloo and the outskirts of the city, so these areas generally have the lowest park disparity.
 
 # Other Sources
 
