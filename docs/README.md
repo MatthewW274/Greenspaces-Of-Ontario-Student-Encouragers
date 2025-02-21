@@ -2,7 +2,7 @@
 ###### Desktop Oriented Web Application
 
 # Links
-- [App]([https://arcg.is/SbGL80](https://experience.arcgis.com/experience/36c525d6dc35420690f07b4b3f4f06b9/?draft=true)
+- [App](https://experience.arcgis.com/experience/36c525d6dc35420690f07b4b3f4f06b9/?draft=true)
 - [Video](https://drive.google.com/file/d/1JRx3cP9TvL_h9piaD1WCsWvmc4fdAKZD/view?usp=sharing)
 
 # Team
