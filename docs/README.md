@@ -26,6 +26,7 @@ With greenspaces playing an ever-increasing role in mental health, physical well
 # Data Sources
 
 Region of Waterloo Open Data Portal: Sidewalks, GRT Routes, Cycling Infrastructure, City Boundary, and Park Polygons.
+
 Canadian Census and Census Mapper: Census Dissemination Area Polygons, Proportion of People Renting in each DA, Average Rent in each DA, Proportion of renters Spending > 30% of income on rent.
 
 # Methodology (and assumptions)
