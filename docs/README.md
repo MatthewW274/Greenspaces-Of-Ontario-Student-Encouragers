@@ -3,7 +3,7 @@
 
 # Links
 - [App](https://experience.arcgis.com/experience/36c525d6dc35420690f07b4b3f4f06b9/?draft=true)
-- [Video](https://drive.google.com/file/d/1JRx3cP9TvL_h9piaD1WCsWvmc4fdAKZD/view?usp=sharing)
+- [Video](https://drive.google.com/file/d/1JRx3cP9TvL_h9piaD1WCsWvmc4fdAKZD/view?usp=sharing)(the video thumbnail can be found [here](https://github.com/MatthewW274/Greenspaces-Of-Ontario-Student-Encouragers/blob/main/App%20Challenge%20Images/video_thumbnail.jpeg))
 
 # Team
 - Harry Cheung
